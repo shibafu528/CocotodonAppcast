@@ -28,16 +28,12 @@ jobs:
           tar -Jxf Sparkle.tar.xz -C Sparkle
 
       - name: Download specified release
-        uses: dsaltares/fetch-gh-release-asset@master
-        with:
-          repo: shibafu528/Cocotodon
-          version: ${{ github.event.inputs.tag }}
-          file: ${{ env.ARCHIVE_NAME }}
-          target: ${{ github.workspace}}/tmp/${{ env.ARCHIVE_NAME }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: tmp
+        run: |
+          curl -Lo "${{ env.ARCHIVE_NAME }}" "https://github.com/shibafu528/Cocotodon/releases/download/${{ github.event.inputs.tag }}/${{ env.ARCHIVE_NAME }}"
 
       - name: Generate version metadata
-        run: ruby generate_item.rb --tag "${{ github.event.inputs.tag }}" --archive "${{ github.workspace }}/tmp/${{ env.ARCHIVE_NAME }}
+        run: ruby generate_item.rb --tag "${{ github.event.inputs.tag }}" --archive "${{ github.workspace }}/tmp/${{ env.ARCHIVE_NAME }}"
         env:
           SPARKLE_PRIVATE_KEY: ${{ secrets.SPARKLE_PRIVATE_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
