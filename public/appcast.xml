@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Cocotodon</title>
+        
+        <item>
+            <title>v0.1.2</title>
+            <sparkle:releaseNotesLink>https://shibafu528.github.io/CocotodonAppcast/releasenotes/v0.1.2.html</sparkle:releaseNotesLink>
+            <pubDate>Sun, 13 Jun 2021 10:20:06 -0000</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/shibafu528/Cocotodon/releases/download/v0.1.2/Cocotodon-v0.1.2.zip"
+                type="application/octet-stream"
+                sparkle:version="2"
+                sparkle:shortVersionString="0.1.2"
+                sparkle:edSignature="6O+F0hLTaviPl+2fao9ghuk9dJ3Y0rffg78gaHoy++uzhod+1q/ElCwh2foFzUnEVvdKXw3xQVP9l2YYOMJ/CA==" length="3704291"
+            />
+        </item>
+        
+    </channel>
+</rss>

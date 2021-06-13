@@ -1,0 +1,11 @@
+{
+  "title": "v0.1.2",
+  "url": "https://github.com/shibafu528/Cocotodon/releases/download/v0.1.2/Cocotodon-v0.1.2.zip",
+  "type": "application/octet-stream",
+  "description": "* カスタム絵文字の表示対応 (#5)\r\n* PostBox: 画像のペースト対応 (#8)\r\n* PostBox: 画像のドラッグ&ドロップ対応 (#9)\r\n",
+  "pub_date": "2021-06-13 10:20:06 UTC",
+  "minimum_system_version": "10.15",
+  "sparkle_version": "2",
+  "sparkle_short_version_string": "0.1.2",
+  "sparkle_sign": "sparkle:edSignature=\"6O+F0hLTaviPl+2fao9ghuk9dJ3Y0rffg78gaHoy++uzhod+1q/ElCwh2foFzUnEVvdKXw3xQVP9l2YYOMJ/CA==\" length=\"3704291\""
+}
