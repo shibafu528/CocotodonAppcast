@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Cocotodon</title>
+        <% versions.each do |version| %>
+        <item>
+            <title><%= version[:title] %></title>
+            <sparkle:releaseNotesLink><%= RELEASE_NOTE_PREFIX %><%= version[:title] %>.html</sparkle:releaseNotesLink>
+            <pubDate><%= Time.parse(version[:pub_date]).rfc2822 %></pubDate>
+            <sparkle:minimumSystemVersion><%= version[:minimum_system_version] %></sparkle:minimumSystemVersion>
+            <enclosure
+                url="<%= version[:url] %>"
+                type="<%= version[:type] %>"
+                sparkle:version="<%= version[:sparkle_version] %>"
+                sparkle:shortVersionString="<%= version[:sparkle_short_version_string] %>"
+                <%= version[:sparkle_sign] %>
+            />
+        </item>
+        <% end %>
+    </channel>
+</rss>
