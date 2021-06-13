@@ -18,10 +18,10 @@ OptionParser.new do |opt|
   opt.parse!(ARGV)
 end
 
-versions = Dir.each_child(versions_dir).sort.map do |ver_file|
+versions = Dir.each_child(versions_dir).map do |ver_file|
   next unless ver_file.end_with?('.json')
   File.open(File.join(versions_dir, ver_file), 'rb') { |io| JSON.parse(io.read, symbolize_names: true) }
-end.compact
+end.compact.sort.reverse
 
 FileUtils.mkdir_p(File.join(public_dir, 'releasenotes'))
 versions.each do |version|
