@@ -21,7 +21,7 @@ end
 versions = Dir.each_child(versions_dir).map do |ver_file|
   next unless ver_file.end_with?('.json')
   File.open(File.join(versions_dir, ver_file), 'rb') { |io| JSON.parse(io.read, symbolize_names: true) }
-end.compact.sort.reverse
+end.compact.sort_by { |version| Time.parse(version[:pub_date]) }.reverse
 
 FileUtils.mkdir_p(File.join(public_dir, 'releasenotes'))
 versions.each do |version|
