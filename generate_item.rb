@@ -43,6 +43,6 @@ abort unless $? == 0
 
 # Write JSON
 FileUtils.mkdir_p('versions')
-File.open(File.join('versions', "#{output[:pub_date].to_i}_#{tag}.json"), 'wb') do |io|
+File.open(File.join('versions', "#{tag}.json"), 'wb') do |io|
   io.puts(JSON.pretty_generate(output))
 end
