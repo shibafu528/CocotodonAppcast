@@ -1,0 +1,11 @@
+{
+  "title": "v0.1.4",
+  "url": "https://github.com/shibafu528/Cocotodon/releases/download/v0.1.4/Cocotodon-v0.1.4.zip",
+  "type": "application/octet-stream",
+  "description": "* TL上の公開範囲アイコンの表示位置を変更 (#16)\r\n* トゥートをBTしたユーザーのアイコンも表示 (#16)\r\n* 投稿欄のレイアウトを変更 (#11)\r\n* Content Warningの入力に対応 (#11)\r\n* 画像付き投稿にNSFWを設定可能にした (#12)\r\n\r\n## Catalinaをお使いの方\r\n前のバージョンより不具合が深刻化したので、アップデートをお勧めできません。   \r\n[こちら](https://github.com/shibafu528/Cocotodon/issues/15)から対応状況を確認することができます。 ",
+  "pub_date": "2021-06-17 13:39:52 UTC",
+  "minimum_system_version": "10.15",
+  "sparkle_version": "4",
+  "sparkle_short_version_string": "0.1.4",
+  "sparkle_sign": "sparkle:edSignature=\"qMZM9rpASaqb7pNL7D9pCvbB1QM0NI3nvJidRktOWOmOg60mP2f9j5Z/DB835eDiE9HWZK0vdvf48axhEWnADA==\" length=\"3718209\""
+}
