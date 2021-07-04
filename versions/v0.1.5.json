@@ -1,0 +1,11 @@
+{
+  "title": "v0.1.5",
+  "url": "https://github.com/shibafu528/Cocotodon/releases/download/v0.1.5/Cocotodon-v0.1.5.zip",
+  "type": "application/octet-stream",
+  "description": "* Cmd+N で投稿欄にジャンプできるようにした (#19)\r\n* 投稿処理中は送信ボタンを無効化し、プログレスバーが表示されるようにした (#21)\r\n\r\n## Catalinaをお使いの方\r\n不具合があるため、アップデートしないことを強く推奨します。  \r\n[こちら](https://github.com/shibafu528/Cocotodon/issues/15)から対応状況を確認することができます。 ",
+  "pub_date": "2021-07-04 13:49:44 UTC",
+  "minimum_system_version": "10.15",
+  "sparkle_version": "5",
+  "sparkle_short_version_string": "0.1.5",
+  "sparkle_sign": "sparkle:edSignature=\"CkcRrFeATl6CfhwpGyJK2ueQ/3ktOe8yv/ntpXzpie7rDitv3eO+BZTwXUjEg0niBfzo5er1fSw9JaBuUN3CAA==\" length=\"3721625\""
+}
