@@ -1,0 +1,11 @@
+{
+  "title": "v0.1.6",
+  "url": "https://github.com/shibafu528/Cocotodon/releases/download/v0.1.6/Cocotodon-v0.1.6.zip",
+  "type": "application/octet-stream",
+  "description": "どうしても納得行かない不具合があったので直しました。\r\n\r\n## Bug fix\r\n\r\n* 投稿欄への入力中に文字列の高さが変わってガタガタ動くのを抑止する (#22)\r\n",
+  "pub_date": "2021-07-05 14:07:13 UTC",
+  "minimum_system_version": "10.15",
+  "sparkle_version": "6",
+  "sparkle_short_version_string": "0.1.6",
+  "sparkle_sign": "sparkle:edSignature=\"a4h601oXbuz3nAohNUW5vnPrUjc94ftG7MUS0uMH4SZSX0BZmJKh9951ZUBZ6PBfRxOQlu703u2ofYLNYaENAQ==\" length=\"3725736\""
+}
