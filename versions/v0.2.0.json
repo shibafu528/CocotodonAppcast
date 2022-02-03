@@ -1,0 +1,11 @@
+{
+  "title": "v0.2.0",
+  "url": "https://github.com/shibafu528/Cocotodon/releases/download/v0.2.0/Cocotodon-v0.2.0.zip",
+  "type": "application/octet-stream",
+  "description": "このバージョンから**macOS 11.1以降のOSが最低要件**となります。Montereyでの動作確認はまだしていません。\r\n\r\n- TLのカラム幅がおかしくなることがあるバグを修正 (#2)\r\n- 「削除」コマンドを追加 (#6)\r\n- 「ブックマークに追加」コマンドを追加 (#23)\r\n- 投票トゥートにアイコンが付くようにした\r\n- 診断メーカー連携がサイト仕様変更で実行できなかったのを修正",
+  "pub_date": "2022-02-03 16:56:50 UTC",
+  "minimum_system_version": "11.1",
+  "sparkle_version": "7",
+  "sparkle_short_version_string": "0.2.0",
+  "sparkle_sign": "sparkle:edSignature=\"jJIKUd2Ru4rsR8kF12CZGIbQnzmym8aZ+8Tqxy5dL/wGSVo3PeQF9hesSsrEZsdgpXTNUy65Qvi5/36QCp34DA==\" length=\"3716059\""
+}
