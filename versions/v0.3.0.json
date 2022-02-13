@@ -1,0 +1,11 @@
+{
+  "title": "v0.3.0",
+  "url": "https://github.com/shibafu528/Cocotodon/releases/download/v0.3.0/Cocotodon-v0.3.0.zip",
+  "type": "application/octet-stream",
+  "description": "## New feature\r\n* メンション先、ハッシュタグ、カスタム絵文字の入力中に候補を表示する機能を追加\r\n* 「ホーム+ローカル」タブを追加 (接続先サーバーがMastodon 3.3.0以上であれば利用可能)\r\n* TL上にお気に入りボタンを追加\r\n* J、KキーでTL上のカーソル移動ができるようにした\r\n* Eキーで選択中トゥートの画像プレビューを呼び出せるようにした\r\n\r\n## Bug fix\r\n* 単純なURL以外のリンクが開けないバグの修正 (#1)\r\n* ストリーミングが切断された場合、自動的に再接続を行うようにした (#24)\r\n* 投稿欄でTabキーを押した時にタブ文字が入力されるバグの修正\r\n",
+  "pub_date": "2022-02-13 15:04:46 UTC",
+  "minimum_system_version": "11.1",
+  "sparkle_version": "8",
+  "sparkle_short_version_string": "0.3.0",
+  "sparkle_sign": "sparkle:edSignature=\"mudr7APZjkiurqS2/9lrMdx45p4YAFf7Tnw405cvkI7KckZYlpTuIOByaefN+nu38DjW04jMapZdgQIeKNXHDg==\" length=\"3743560\""
+}
