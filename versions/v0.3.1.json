@@ -1,0 +1,11 @@
+{
+  "title": "v0.3.1",
+  "url": "https://github.com/shibafu528/Cocotodon/releases/download/v0.3.1/Cocotodon-v0.3.1.zip",
+  "type": "application/octet-stream",
+  "description": "## New feature\r\n- Mastodon 3.5の編集機能を部分的にサポート\r\n  - ストリーミングでの編集イベントの受信に対応\r\n  - 自分の投稿の編集に対応\r\n  - (履歴表示は未対応)\r\n- 通知・お気に入り・ブックマークタブを追加",
+  "pub_date": "2022-04-24 02:14:51 UTC",
+  "minimum_system_version": "11.1",
+  "sparkle_version": "9",
+  "sparkle_short_version_string": "0.3.1",
+  "sparkle_sign": "sparkle:edSignature=\"PVSLnBvmC0Zo/DozsqiFKW+JeOX/R7I8bbhUYQtnxd19CN8bPRCvjTgq/bIhOaNXQDM6GpRYJmcJw6KK3upBDQ==\" length=\"3770438\""
+}
