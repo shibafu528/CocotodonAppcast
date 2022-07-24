@@ -1,0 +1,11 @@
+{
+  "title": "v0.3.2",
+  "url": "https://github.com/shibafu528/Cocotodon/releases/download/v0.3.2/Cocotodon-v0.3.2.zip",
+  "type": "application/octet-stream",
+  "description": "## New feature\r\n- タブ間でストリーミング接続を使い回すようにした (#27)\r\n- 1000件を超える投稿はTLから破棄するようにした\r\n- 画像ダウンロード中に進捗率も表示するようにした\r\n\r\n## Bug fix\r\n- 投稿編集通知を受け取るとクラッシュするバグの修正",
+  "pub_date": "2022-07-24 11:39:35 UTC",
+  "minimum_system_version": "11.1",
+  "sparkle_version": "10",
+  "sparkle_short_version_string": "0.3.2",
+  "sparkle_sign": "sparkle:edSignature=\"2p+MCH98xgL93Egsrs1gLreBD9+uc9il8Eaaz0k5JpT1W8uz+r72bRTBgBODj1FFMZEfvJHdac9HMMDts94JCg==\" length=\"3779555\""
+}
