@@ -1,0 +1,11 @@
+{
+  "title": "v0.3.3",
+  "url": "https://github.com/shibafu528/Cocotodon/releases/download/v0.3.3/Cocotodon-v0.3.3.zip",
+  "type": "application/octet-stream",
+  "description": "## New feature\r\n- メイン画面のタイトルバー・ツールバー周りのデザインを変更  \r\n   <img width=\"629\" alt=\"スクリーンショット 2022-08-09 22 54 45\" src=\"https://user-images.githubusercontent.com/1352154/183669739-a30d2f0a-59c4-431c-b5e6-46a648f47be1.png\">\r\n- メディアを添付している場合、添付ボタンにアクセントカラーを付けるようにした  \r\n   <img width=\"615\" alt=\"スクリーンショット 2022-08-09 23 05 47\" src=\"https://user-images.githubusercontent.com/1352154/183669997-7c869e04-73a4-409b-a9d3-372b535198a6.png\">\r\n- Content warningが設定されている場合、TL上で選択するまで本文を隠すようにした\r\n- 同じ画像のプレビューを2枚以上開かずに使い回すようにした\r\n- 投稿欄に入力したURLの文字数カウントをちゃんとやるようにした (#28)\r\n\r\n## Bug fix\r\n- 未知の通知が来てもクラッシュしないようにした (#30)\r\n- pタグ終了後の行間挿入のタイミングが次のpタグ出現時だったのを、次の任意要素出現時に修正",
+  "pub_date": "2022-08-09 14:06:29 UTC",
+  "minimum_system_version": "11.1",
+  "sparkle_version": "11",
+  "sparkle_short_version_string": "0.3.3",
+  "sparkle_sign": "sparkle:edSignature=\"RjiHKrmhsoY6qfroUABshrpki43DD/xNx4RpFL0CeTD5+hY+yoVPImqyP7FgjuyydfSOtok1ivK9dPntHl6RBQ==\" length=\"4025816\""
+}

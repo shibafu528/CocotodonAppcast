@@ -4,6 +4,20 @@
         <title>Cocotodon</title>
         
         <item>
+            <title>v0.3.3</title>
+            <sparkle:releaseNotesLink>https://shibafu528.github.io/CocotodonAppcast/releasenotes/v0.3.3.html</sparkle:releaseNotesLink>
+            <pubDate>Tue, 09 Aug 2022 14:06:29 -0000</pubDate>
+            <sparkle:minimumSystemVersion>11.1</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/shibafu528/Cocotodon/releases/download/v0.3.3/Cocotodon-v0.3.3.zip"
+                type="application/octet-stream"
+                sparkle:version="11"
+                sparkle:shortVersionString="0.3.3"
+                sparkle:edSignature="RjiHKrmhsoY6qfroUABshrpki43DD/xNx4RpFL0CeTD5+hY+yoVPImqyP7FgjuyydfSOtok1ivK9dPntHl6RBQ==" length="4025816"
+            />
+        </item>
+        
+        <item>
             <title>v0.3.2</title>
             <sparkle:releaseNotesLink>https://shibafu528.github.io/CocotodonAppcast/releasenotes/v0.3.2.html</sparkle:releaseNotesLink>
             <pubDate>Sun, 24 Jul 2022 11:39:35 -0000</pubDate>
